@@ -1,0 +1,14 @@
+.register-form-textfield{
+    -fx-background-color:transparent;
+      -fx-text-inner-color:#007d75;
+      -fx-border-color:black;
+      -fx-prompt-text-fill: #f29c6d;
+      -fx-border-bottom: 2px;
+
+       -fx-border-width: 0 0 2 0
+
+      //-fx-border-bottom-style: dotted;
+      //-fx-text-fill: red;
+
+
+}

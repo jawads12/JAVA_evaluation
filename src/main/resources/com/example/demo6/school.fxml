@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo6.school_control">
+   <children>
+      <Text layoutX="212.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Income Calculation" />
+      <Text layoutX="110.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <Text layoutX="120.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+      <Text layoutX="85.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No_of_students" />
+      <Text layoutX="75.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tution_per_student" />
+      <Button layoutX="135.0" layoutY="322.0" mnemonicParsing="false" onMouseClicked="#calculate" style="-fx-background-radius: 15; -fx-background-color: black;" text="calculate" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label fx:id="result" layoutX="326.0" layoutY="314.0" prefHeight="36.0" prefWidth="252.0" text="Total income will show here">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="name" layoutX="212.0" layoutY="131.0" styleClass="register-form-textfield" stylesheets="@style.css" />
+      <TextField fx:id="id" layoutX="212.0" layoutY="169.0" styleClass="register-form-textfield" stylesheets="@style.css" />
+      <TextField fx:id="no_of_stud" layoutX="212.0" layoutY="208.0" styleClass="register-form-textfield" stylesheets="@style.css" />
+      <TextField fx:id="tution" layoutX="212.0" layoutY="246.0" styleClass="register-form-textfield" stylesheets="@style.css" />
+   </children>
+</AnchorPane>

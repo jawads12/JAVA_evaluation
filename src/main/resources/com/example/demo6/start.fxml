@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo6.start">
+   <children>
+      <Text layoutX="195.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcom to UI" textAlignment="CENTER" wrappingWidth="209.21014404296875" />
+      <Button layoutX="231.0" layoutY="168.0" mnemonicParsing="false" onMouseClicked="#school" prefHeight="26.0" prefWidth="123.0" text="school" />
+      <Button layoutX="231.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#rest" prefHeight="26.0" prefWidth="123.0" text="restaurant" />
+   </children>
+</AnchorPane>
